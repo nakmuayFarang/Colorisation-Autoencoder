@@ -12,5 +12,5 @@ Model 1 : Autoencoder Conv - Conv - Conv - Dense - Deconv - Deconv
 
 
 Model 2 : tune VGG16 model.
-  Use the 10 fisrt layers of the VGG16 as encoder in order to get to have an abstract representation of the picture.
+  Use the 10 first layers of the VGG16 as encoder in order to get to have an abstract representation of the picture.
   Then use convolution in the decoder to generate the picture.
